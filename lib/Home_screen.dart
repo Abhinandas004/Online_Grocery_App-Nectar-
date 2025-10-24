@@ -648,7 +648,7 @@ class _HomeScreenPageState extends State<HomeScreenPage> {
                       height: 105,
                       width: 248.19,
                       decoration: BoxDecoration(
-                        color: Color(0xffF8A44C),
+                        color: Color(0xffFAF0E6),
                         borderRadius: BorderRadius.all(Radius.circular(20)),
                       ),
                       child: Row(
@@ -689,7 +689,7 @@ class _HomeScreenPageState extends State<HomeScreenPage> {
                       height: 105,
                       width: 248.19,
                       decoration: BoxDecoration(
-                        color: Color(0xff53B175),
+                        color: Color(0xffE4F7EF),
                         borderRadius: BorderRadius.all(Radius.circular(20)),
                       ),
                       child: Row(
