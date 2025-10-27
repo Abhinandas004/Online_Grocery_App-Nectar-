@@ -148,21 +148,75 @@ class _FindProductPageState extends State<FindProductPage> {
                     height: 189.11,
                     width: 174.5,
                     decoration: BoxDecoration(
-                      color: Color(0xffD4FCE4),
+                      border: Border.all(color: Color(0xffF7A593)),
+                      color: Color(0xffF7E9E6),
                       borderRadius: BorderRadius.all(Radius.circular(20)),
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.only(top: 20),
+                      child: Column(
+                        children: [
+                          Center(
+                            child: Container(
+                              height: 74.9,
+                              width: 111.38,
+                              decoration: BoxDecoration(
+                                image: DecorationImage(
+                                  image: AssetImage("assets/pngfuel 9.png"),
+                                ),
+                              ),
+                            ),
+                          ),
+                          SizedBox(height: 20),
+                          Text(
+                            "Meat & Fish",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16,
+                            ),
+                          ),
+
+                        ],
+                      ),
                     ),
                   ),
                 ),
                 SizedBox(width: 20),
                 Padding(
-                  padding: const EdgeInsets.only(right: 20),
+                  padding: const EdgeInsets.only(right: 0),
                   child: Container(
                     height: 189.11,
                     width: 174.5,
                     decoration: BoxDecoration(
-                      color: Color(0xffFAE8D4),
+                      border: Border.all(color: Color(0xffD3B0E0)),
+                      color: Color(0xffF5E8FA),
                       borderRadius: BorderRadius.all(Radius.circular(20)),
+                    ),child: Padding(
+                    padding: const EdgeInsets.only(top: 20),
+                    child: Column(
+                      children: [
+                        Center(
+                          child: Container(
+                            height: 74.9,
+                            width: 111.38,
+                            decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: AssetImage("assets/pngfuel 000.png"),
+                              ),
+                            ),
+                          ),
+                        ),
+                        SizedBox(height: 20),
+                        Text(
+                          "Bakery & Snacks",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                          ),
+                        ),
+                      ],
                     ),
+                  ),
                   ),
                 ),
               ],
@@ -176,21 +230,75 @@ class _FindProductPageState extends State<FindProductPage> {
                     height: 189.11,
                     width: 174.5,
                     decoration: BoxDecoration(
-                      color: Color(0xffD4FCE4),
+                      border: Border.all(color: Color(0xffFDE598)),
+                      color: Color(0xffF7F4E9),
                       borderRadius: BorderRadius.all(Radius.circular(20)),
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.only(top: 20),
+                      child: Column(
+                        children: [
+                          Center(
+                            child: Container(
+                              height: 74.9,
+                              width: 111.38,
+                              decoration: BoxDecoration(
+                                image: DecorationImage(
+                                  image: AssetImage("assets/Group 6837.png"),
+                                ),
+                              ),
+                            ),
+                          ),
+                          SizedBox(height: 20),
+                          Text(
+                            "Diary & Eggs",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16,
+                            ),
+                          ),
+
+                        ],
+                      ),
                     ),
                   ),
                 ),
                 SizedBox(width: 20),
                 Padding(
-                  padding: const EdgeInsets.only(right: 20),
+                  padding: const EdgeInsets.only(right: 0),
                   child: Container(
                     height: 189.11,
                     width: 174.5,
                     decoration: BoxDecoration(
-                      color: Color(0xffFAE8D4),
+                      border: Border.all(color: Color(0xffB7DFF5)),
+                      color: Color(0xffE9F2F7),
                       borderRadius: BorderRadius.all(Radius.circular(20)),
+                    ),child: Padding(
+                    padding: const EdgeInsets.only(top: 20),
+                    child: Column(
+                      children: [
+                        Center(
+                          child: Container(
+                            height: 74.9,
+                            width: 111.38,
+                            decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: AssetImage("assets/pngfuel 6090.png"),
+                              ),
+                            ),
+                          ),
+                        ),
+                        SizedBox(height: 20),
+                        Text(
+                          "Beverages",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                          ),
+                        ),
+                      ],
                     ),
+                  ),
                   ),
                 ),
               ],
@@ -204,20 +312,73 @@ class _FindProductPageState extends State<FindProductPage> {
                     height: 189.11,
                     width: 174.5,
                     decoration: BoxDecoration(
-                      color: Color(0xffD4FCE4),
+                      border: Border.all(color: Color(0xffD3B0E0)),
+                      color: Color(0xffF5E8FA),
                       borderRadius: BorderRadius.all(Radius.circular(20)),
+                    ),child: Padding(
+                    padding: const EdgeInsets.only(top: 20),
+                    child: Column(
+                      children: [
+                        Center(
+                          child: Container(
+                            height: 74.9,
+                            width: 111.38,
+                            decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: AssetImage("assets/pngfuel 000.png"),
+                              ),
+                            ),
+                          ),
+                        ),
+                        SizedBox(height: 20),
+                        Text(
+                          "Bakery & Snacks",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                          ),
+                        ),
+                      ],
                     ),
                   ),
-                ),
-                SizedBox(width: 20),
+                  ),
+                ), SizedBox(width: 20),
                 Padding(
-                  padding: const EdgeInsets.only(right: 20),
+                  padding: const EdgeInsets.only(right: 0),
                   child: Container(
                     height: 189.11,
                     width: 174.5,
                     decoration: BoxDecoration(
-                      color: Color(0xffFAE8D4),
+                      border: Border.all(color: Color(0xffF7A593)),
+                      color: Color(0xffF7E9E6),
                       borderRadius: BorderRadius.all(Radius.circular(20)),
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.only(top: 20),
+                      child: Column(
+                        children: [
+                          Center(
+                            child: Container(
+                              height: 74.9,
+                              width: 111.38,
+                              decoration: BoxDecoration(
+                                image: DecorationImage(
+                                  image: AssetImage("assets/pngfuel 9.png"),
+                                ),
+                              ),
+                            ),
+                          ),
+                          SizedBox(height: 20),
+                          Text(
+                            "Meat & Fish",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16,
+                            ),
+                          ),
+
+                        ],
+                      ),
                     ),
                   ),
                 ),

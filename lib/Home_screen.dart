@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'Product_detail_page.dart';
+
 class HomeScreenPage extends StatefulWidget {
   const HomeScreenPage({super.key});
 
@@ -93,7 +95,7 @@ class _HomeScreenPageState extends State<HomeScreenPage> {
                 ),
               ],
             ),
-            SizedBox(height: 10),
+            SizedBox(height: 20),
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: Row(
@@ -197,13 +199,17 @@ class _HomeScreenPageState extends State<HomeScreenPage> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Center(
-                            child: Container(
-                              height: 62.56,
-                              width: 103.43,
-                              decoration: BoxDecoration(
-                                image: DecorationImage(
-                                  image: AssetImage("assets/pngfuel 1.png"),
+                          InkWell(onTap: () {
+                            Navigator.push(context, MaterialPageRoute(builder: (context) => ProductDetailPage(),));
+                          },
+                            child: Center(
+                              child: Container(
+                                height: 62.56,
+                                width: 103.43,
+                                decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                    image: AssetImage("assets/pngfuel 1.png"),
+                                  ),
                                 ),
                               ),
                             ),
@@ -366,7 +372,7 @@ class _HomeScreenPageState extends State<HomeScreenPage> {
                 ),
               ],
             ),
-            SizedBox(height: 10),
+            SizedBox(height: 20),
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: Row(
@@ -637,7 +643,7 @@ class _HomeScreenPageState extends State<HomeScreenPage> {
                 ),
               ],
             ),
-            SizedBox(height: 10),
+            SizedBox(height: 20),
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: Row(
@@ -726,7 +732,7 @@ class _HomeScreenPageState extends State<HomeScreenPage> {
                 ],
               ),
             ),
-            SizedBox(height: 10),
+            SizedBox(height: 20),
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: Row(
